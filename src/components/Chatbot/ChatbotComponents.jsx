@@ -137,7 +137,7 @@ const ChatbotComponent = () => {
       {!isChatOpen && (
         <button className="chatbot-open-button" onClick={toggleChat}>
           <img
-            src="\Images\operator.png"
+            src="\Images\operator.png" 
             alt="Chat Icon"
             style={{ width: "100px", height: "auto" }}
           />
@@ -183,7 +183,7 @@ const ChatbotComponent = () => {
               ))}
               {loading && (
                 <div className="message-row bot">
-                  <div className="avatar bot-avatar">:robot_face:</div>
+                  <div className="avatar bot-avatar">🤖</div>
                   <p className="bot-message loading-indicator">Typing...</p>
                 </div>
               )}

@@ -32,7 +32,7 @@
     "examples":["jevlas ky", "jevlis", "jevan zal"]
   },
   "Name": {
-    "response":"Hi I am J.A.R.V.I.S. Just A Rather Very Intelligent System",
+    "response":"Hi I am J.A.R.V.I.S. <br/> 'Just A Rather Very Intelligent System'",
     "examples":["what is your name", "name", "Who are you"]
   }
 }
