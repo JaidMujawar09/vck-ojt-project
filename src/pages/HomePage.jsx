@@ -1,6 +1,6 @@
 import Header from "../components/Header/Header";
 import Footer  from "../components/Footer/Footer";
-import '../styles/Pages.css';
+
 //import "../styles/SharedPageLayout.css"; // <-- Import the new shared CSS file
 // import "../styles/HomePage.css" // <-- If you have page-specific styles, import it AFTER the shared one
 
@@ -14,7 +14,7 @@ const HomePage = () => {
                 <div className="main-box"> {/* Uses shared class */}
                     <div className="main-content-scrollable">
                     <div className="hero-section">
-                        <img alt="Vivekanand College Campus" className="hero-banner-image" src="/Images/college-banner.png" />
+                        <img alt="Vivekanand College Campus"className="hero-banner-image" src="\Images\college-banner.png" />
                         <div className="hero-overlay-text">
                             <h1>Welcome to Vivekanand College!</h1>
                             <p id="para">Your journey to excellence starts here.</p>
@@ -36,8 +36,8 @@ const HomePage = () => {
                         </ul>
                         <h2> Campus Life & Facilities</h2> <hr />
                         <div className="campus-images-container">
-                            <img src="../Images/studentstudying.jpeg" alt="Vivekanand College Information" className="campus-image"/>
-                            <img src="../Images/campuslife.jpg" alt="Vivekanand College Campus" className="campus-image"/>
+                            <img src="\Images\studentstudying.jpeg" alt="Vivekanand College Information" className="campus-image"/>
+                            <img src="\Images\campuslife.jpg" alt="Vivekanand College Campus" className="campus-image"/>
                         </div>
                     </div>
                 </div>
